@@ -148,15 +148,14 @@ export async function refreshHistory(path: string) {
   redirect(path)
 }
 
+  export async function getMissingKeys() {
   const aiMessages = [...(retryMessages ?? aiState.get().messages)]
+  const keysRequired = ['GOOGLE_GENERATIVE_AI']
   // Get the messages from the state, filter out the tool messages
+  return keysRequired
   const messages: CoreMessage[] = aiMessages
+    .map(key => (process.env[key] ? '' : key))
     .map(message => {
+    .filter(key => key !== '')
       const { role, content } = message
-      return { role, content } as CoreMessage
-    .filter( message =>
-        message.role !== 'tool' &&
-        message.type !== 'followup' &&
-        message.type !== 'related' &&
-        message.type !== 'end')
 }
