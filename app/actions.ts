@@ -149,7 +149,7 @@ export async function refreshHistory(path: string) {
 }
 
 export async function getMissingKeys() {
-  const keysRequired = ['AIzaSyAnHBYB8ga32Yo6TFWPDDHdzZaD7fsBOv4']
+  const keysRequired = [',']
   return keysRequired
     .map(key => (process.env[key] ? '' : key))
     .filter(key => key !== '')
