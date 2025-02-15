@@ -149,7 +149,7 @@ export async function refreshHistory(path: string) {
 }
 
 export async function getMissingKeys() {
-  const keysRequired = ['GOOGLE_GENERATIVE_AI_API_KEY']
+  const keysRequired = ['AIzaSyAnHBYB8ga32Yo6TFWPDDHdzZaD7fsBOv4']
   return keysRequired
     .map(key => (process.env[key] ? '' : key))
     .filter(key => key !== '')
