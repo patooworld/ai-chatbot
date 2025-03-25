@@ -85,6 +85,7 @@ export function ChatPanel({
                       responseMessage
                     ])
                   } catch {
+                    setMessages(currentMessages => currentMessages.slice(0, -1)) //remove the user message if error occurs.
                     toast(
                       <div className="text-red-600">
                         You have reached your message limit! Please try again
