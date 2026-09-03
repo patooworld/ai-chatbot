@@ -132,7 +132,7 @@ devDependencies:
     version: 0.5.10(tailwindcss@3.4.1)
   '@types/d3-scale':
     specifier: ^4.0.8
-    version: 4.0.8
+    version: 4.0.9
   '@types/node':
     specifier: ^20.11.5
     version: 20.11.5
@@ -1304,14 +1304,14 @@ packages:
       tailwindcss: 3.4.1
     dev: true
 
-  /@types/d3-scale@4.0.8:
-    resolution: {integrity: sha512-gkK1VVTr5iNiYJ7vWDI+yUFFlszhNMtVeneJ6lUTKPjprsvLLI9/tgEGiXJOnlINJA8FyA88gfnQsHbybVZrYQ==}
+  /@types/d3-scale@4.0.9:
+    resolution: {integrity: sha512-dLmtwB8zkAeO/juAMfnV+sItKjlsw2lKdZVVy6LRr0cBmegxSABiLEpGVmSJJ8O08i4+sGR6qQtb6WtuwJdvVw==}
     dependencies:
-      '@types/d3-time': 3.0.3
+      '@types/d3-time': 3.0.4
     dev: true
 
-  /@types/d3-time@3.0.3:
-    resolution: {integrity: sha512-2p6olUZ4w3s+07q3Tm2dbiMZy5pCDfYwtLXXHUnVzXgQlZ/OyPtUz6OL382BkOuGlLXqfT+wqv8Fw2v8/0geBw==}
+  /@types/d3-time@3.0.4:
+    resolution: {integrity: sha512-yuzZug1nkAAaBlBBikKZTgzCeA+k1uy4ZFwWANOfKw5z5LRhV0gNA7gNkKm7HoK+HRN0wX3EkxGk0fpbWhmB7g==}
     dev: true
 
   /@types/debug@4.1.12:
@@ -1540,7 +1540,7 @@ packages:
       '@vue/shared': 3.5.42
       estree-walker: 2.0.2
       magic-string: 0.30.21
-      postcss: 8.5.26
+      postcss: 8.5.28
       source-map-js: 1.2.1
     dev: false
 
@@ -4505,8 +4505,8 @@ packages:
       source-map-js: 1.0.2
     dev: true
 
-  /postcss@8.5.26:
-    resolution: {integrity: sha512-u82N74LFzG8ca+dD8puPnplTXoGH4fTPpVGuIbt36G3qvNlkvfD0lEAZSxaly3KX8TS/L1A1gsCEmvKmBcVbkQ==}
+  /postcss@8.5.28:
+    resolution: {integrity: sha512-RRuzqDtt5Y9h3quz5hWhK+TPnsmVs6WwSU6LkJMeY4HstUEDuYTG8UJSdawMRzmzAtV+KEoG8N3Qg2qLy5vM/A==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.18
