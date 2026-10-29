@@ -52,7 +52,7 @@ dependencies:
     version: 0.6.2
   ai:
     specifier: ^3.0.17
-    version: 3.0.17(react@18.2.0)(solid-js@1.9.15)(svelte@4.2.20)(vue@3.5.42)(zod@3.22.4)
+    version: 3.0.17(react@18.2.0)(solid-js@1.9.15)(svelte@4.2.20)(vue@3.5.42)(zod@4.0.0)
   class-variance-authority:
     specifier: ^0.7.0
     version: 0.7.1
@@ -123,8 +123,8 @@ dependencies:
     specifier: ^2.16.0
     version: 2.16.0(react@18.2.0)
   zod:
-    specifier: ^3.22.4
-    version: 3.22.4
+    specifier: ^4.0.0
+    version: 4.0.0
 
 devDependencies:
   '@tailwindcss/typography':
@@ -1619,7 +1619,7 @@ packages:
       humanize-ms: 1.2.1
     dev: false
 
-  /ai@3.0.17(react@18.2.0)(solid-js@1.9.15)(svelte@4.2.20)(vue@3.5.42)(zod@3.22.4):
+  /ai@3.0.17(react@18.2.0)(solid-js@1.9.15)(svelte@4.2.20)(vue@3.5.42)(zod@4.0.0):
     resolution: {integrity: sha512-GWVJ+Rb7Xt6oEk44aO2fpDYGMIoH3VL8toGKKQNq8sHKzxfBRYwOF9n8ir9YyU53STt7mAc1Kp3r9AEeWPePAA==}
     engines: {node: '>=14.6'}
     peerDependencies:
@@ -1653,8 +1653,8 @@ packages:
       swr-store: 0.10.6
       swrv: 1.0.4(vue@3.5.42)
       vue: 3.5.42(typescript@5.3.3)
-      zod: 3.22.4
-      zod-to-json-schema: 3.22.5(zod@3.22.4)
+      zod: 4.0.0
+      zod-to-json-schema: 3.22.5(zod@4.0.0)
     dev: false
 
   /ajv@6.12.6:
@@ -5747,16 +5747,16 @@ packages:
     resolution: {integrity: sha512-N+d4UJSJbt/R3wqY7Coqs5pcV0aUj2j9IaQ3rNj9bVCLld8tTGKRa2USARjnvZJWVx1NDmQev8EknoczaOQDOA==}
     dev: false
 
-  /zod-to-json-schema@3.22.5(zod@3.22.4):
+  /zod-to-json-schema@3.22.5(zod@4.0.0):
     resolution: {integrity: sha512-+akaPo6a0zpVCCseDed504KBJUQpEW5QZw7RMneNmKw+fGaML1Z9tUNLnHHAC8x6dzVRO1eB2oEMyZRnuBZg7Q==}
     peerDependencies:
       zod: ^3.22.4
     dependencies:
-      zod: 3.22.4
+      zod: 4.0.0
     dev: false
 
-  /zod@3.22.4:
-    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
+  /zod@4.0.0:
+    resolution: {integrity: sha512-9diLdTPc/L7w/5jI4C3gHYNiGHDV9IZYxo1e5LSD8cabi65WVTWWb+g2BGPEpUUCOxR4D+6O5B0AzyMdUAXwrw==}
     dev: false
 
   /zwitch@2.0.4:
